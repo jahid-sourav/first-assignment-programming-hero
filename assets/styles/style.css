@@ -19,12 +19,19 @@ body{
     font-family: 'Inter', sans-serif;
 }
 .container{
-    width: 82.5%;
+    width: 85%;
     max-width: 1320px;
     margin: 0 auto; 
 }
+.max-width-393{
+    max-width: 393px;
+}
+.full-width{
+    width: 100%;
+}
 .image-fluid{
     max-width: 100%;
+    height: auto;
 }
 /* Typography */
 .secondary-font{
@@ -336,3 +343,14 @@ body{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
 }
 /* Party Info Ends Here */
+
+/* Offer Info Starts Here */
+.offer-info{
+    gap: 70px;
+}
+.offer-info-middle{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
+}
+/* Offer Info Ends Here */
