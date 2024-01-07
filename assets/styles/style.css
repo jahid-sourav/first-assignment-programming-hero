@@ -91,7 +91,24 @@ body{
     text-transform: capitalize;  
 } 
 /* Text Color */
-
+.text-color-white{
+    color: #FFF;
+}
+.text-color-red{
+    color: #F00;
+}
+.text-color-black{
+    color: #070211;
+}
+.text-color-rgba{
+    color: rgba(255, 255, 255, 0.80);
+}
+.text-light-color-rgba{
+    color: rgba(7, 2, 17, 0.60); 
+}
+.text-extra-light-color-rgba{
+    color: rgba(7, 2, 17, 0.30); 
+}
 /* Background Color */
 
 /* Margin */
