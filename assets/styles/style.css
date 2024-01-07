@@ -93,6 +93,9 @@ body{
 .text-transform-capitalize{
     text-transform: capitalize;  
 } 
+.letter-spacing-7{
+    letter-spacing: 7px; 
+}
 /* Text Color */
 .text-color-white{
     color: #FFF;
@@ -169,6 +172,9 @@ body{
 .mr-24{
     margin-right: 24px;
 }
+.ml-32{
+    margin-left: 32px;
+}
 .mx-auto{
     margin-right: auto;
     margin-left: auto;
@@ -210,6 +216,9 @@ body{
 .pl-126{
     padding-left: 126px;
 }
+.pr-138{
+    padding-right: 138px;
+}
 .py-16{
     padding-top: 16px;
     padding-bottom: 16px;
@@ -217,6 +226,10 @@ body{
 .py-24{
     padding-top: 24px;
     padding-bottom: 24px;
+}
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .px-32{
     padding-left: 32px;
@@ -259,6 +272,23 @@ body{
 .mix-border-radius{
     border-radius: 16px 0px 16px 16px; 
 }
+/* Button */
+.text-button{
+    position: relative;
+}
+.text-button::after{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 1px;
+    background-color: white;
+    bottom: -3px;
+    left: 0;
+    transition: 0.4s ease-in-out;
+}
+.text-button:hover::after{
+    width: 100%;
+}
 /* Common Classes Ends Here */
 
 /* Hero Area Starts Here */
@@ -274,3 +304,20 @@ body{
     max-width: 632px;
 }
 /* Hero Area Ends Here */
+
+/* CTA Section Starts Here */
+.cta-section{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+    url('../images/cta-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 40px;
+}
+.cta-section p{
+    max-width: 697px;
+}
+.cta-section img{
+    max-width: 133%;
+}
+/* CTA Section Ends Here */
