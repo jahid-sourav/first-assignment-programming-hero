@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Common Classes Starts Here */
+a{
+    text-decoration: none;
+}
+ul, li{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+/* Typography */
+.secondary-font{
+    font-family: 'Merriweather', serif;
+}
+/* Display */
+.display-inline-block{
+    display: inline-block;
+}
+.display-block{
+    display: block;
+}
+.display-none{
+    display: none;
+}
+.display-flex{
+    display: flex;
+}
+/* Flex Properties*/
+.align-items-center{
+    align-items: center;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+/* Common Classes Ends Here */
