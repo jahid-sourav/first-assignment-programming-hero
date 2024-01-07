@@ -17,6 +17,10 @@ img{
 body{
     font-family: 'Inter', sans-serif;
 }
+.container{
+    width: 82.5%;
+    max-width: 1320px;
+}
 /* Typography */
 .secondary-font{
     font-family: 'Merriweather', serif;
