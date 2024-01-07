@@ -110,7 +110,21 @@ body{
     color: rgba(7, 2, 17, 0.30); 
 }
 /* Background Color */
-
+.white-background{
+    background-color: #FFF;
+}
+.dark-background{
+    background-color: #070211;
+}
+.red-background{
+    background: #F00; 
+}
+.light-background{
+    background: rgba(255, 0, 0, 0.05); 
+}
+.linear-background{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); 
+}
 /* Margin */
 .mt-50{
     margin-top: 50px;
@@ -148,7 +162,6 @@ body{
 .mr-24{
     margin-right: 24px;
 }
-
 /* Padding */
 .section-gap{
     padding: 120px 0px;
