@@ -23,6 +23,9 @@ body{
     max-width: 1320px;
     margin: 0 auto; 
 }
+.image-fluid{
+    max-width: 100%;
+}
 /* Typography */
 .secondary-font{
     font-family: 'Merriweather', serif;
