@@ -145,6 +145,9 @@ body{
 .mb-16{
     margin-bottom: 16px;
 }
+.mb-20{
+    margin-bottom: 20px;
+}
 .mb-22{
     margin-bottom: 22px;
 }
@@ -168,6 +171,9 @@ body{
 }
 .mb-65{
     margin-bottom: 65px;
+}
+.mb-120{
+    margin-bottom: 120px;
 }
 .mr-24{
     margin-right: 24px;
@@ -263,6 +269,9 @@ body{
     justify-content: center;
 }
 /* Border Radius*/
+.border-radius-8{
+    border-radius: 8px; 
+}
 .border-radius-16{
     border-radius: 16px; 
 }
@@ -321,3 +330,9 @@ body{
     max-width: 133%;
 }
 /* CTA Section Ends Here */
+
+/* Party Info Starts Here */
+.party-info{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+}
+/* Party Info Ends Here */
