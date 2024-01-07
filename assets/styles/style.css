@@ -109,6 +109,10 @@ body{
 .text-extra-light-color-rgba{
     color: rgba(7, 2, 17, 0.30); 
 }
+/* Text Alignment */
+.text-align-center{
+    text-align: center;
+}
 /* Background Color */
 .white-background{
     background-color: #FFF;
