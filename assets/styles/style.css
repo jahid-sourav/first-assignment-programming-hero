@@ -238,4 +238,14 @@ body{
 .justify-content-center{
     justify-content: center;
 }
+/* Border Radius*/
+.border-radius-16{
+    border-radius: 16px; 
+}
+.border-radius-50{
+    border-radius: 50px; 
+}
+.mix-border-radius{
+    border-radius: 16px 0px 16px 16px; 
+}
 /* Common Classes Ends Here */
