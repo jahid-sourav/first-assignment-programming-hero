@@ -26,6 +26,9 @@ body{
 .max-width-393{
     max-width: 393px;
 }
+.max-width-750{
+    max-width: 750px;
+}
 .full-width{
     width: 100%;
 }
@@ -272,6 +275,12 @@ body{
     display: flex;
 }
 /* Flex Properties*/
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-gap-24{
+    gap: 24px;
+}
 .align-items-center{
     align-items: center;
 }
@@ -310,6 +319,31 @@ body{
 }
 .text-button:hover::after{
     width: 100%;
+}
+/* Components */
+.portfolio-card{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-card img{
+    cursor: pointer;
+}
+.portfolio-card-body{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: -100%;
+    background: rgba(0, 0, 0, 0.582);
+    backdrop-filter: blur(5px);
+    padding: 10px 20px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    transition: 0.8s ease-in-out;
+}
+.portfolio-card:hover .portfolio-card-body{
+    left: 0;
 }
 /* Common Classes Ends Here */
 
