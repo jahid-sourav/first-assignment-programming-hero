@@ -421,3 +421,51 @@ body{
     left: 100px;
 }
 /* Functional Section Ends Here */
+
+/* Newsletter Starts Here */
+.newsletter{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.newsletter p{
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.newsletter-input{
+    min-width: 648px; 
+    position: relative;
+}
+.newsletter-input input{
+    border-radius: 50px;
+    background: #FFF;
+    padding: 25px 30px;
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 1px solid transparent;
+    transition: 0.4s all linear;
+    color: rgba(7, 2, 17, 0.30); 
+    font-size: 18px; 
+    font-weight: 400; 
+}
+.newsletter-input input:focus {
+    border: 1px solid #F00;
+}
+.newsletter-input button{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00; 
+    padding: 24px 56px;
+    outline: none;
+    border: 1px solid transparent;
+    color: #FFF; 
+    font-size: 20px; 
+    font-weight: 600; 
+    transition: 0.4s all linear;
+    cursor: pointer;
+    text-transform: capitalize; 
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* Newsletter Ends Here */
