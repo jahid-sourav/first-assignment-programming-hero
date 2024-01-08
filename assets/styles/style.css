@@ -155,6 +155,9 @@ body{
 .mb-0{
     margin-bottom: 0;
 }
+.mb-10{
+    margin-bottom: 10px;
+}
 .mb-16{
     margin-bottom: 16px;
 }
@@ -188,6 +191,9 @@ body{
 .mb-120{
     margin-bottom: 120px;
 }
+.mr-16{
+    margin-right: 16px;
+}
 .mr-24{
     margin-right: 24px;
 }
@@ -208,6 +214,9 @@ body{
 .pt-48{
     padding-top: 48px;
 }
+.pt-50{
+    padding-top: 50px;
+}
 .pt-80{
     padding-top: 80px;
 }
@@ -222,6 +231,9 @@ body{
 }
 .pb-0{
     padding-bottom: 0;
+}
+.pb-50{
+    padding-bottom: 50px;
 }
 .pb-80{
     padding-bottom: 80px;
@@ -248,6 +260,10 @@ body{
 .py-24{
     padding-top: 24px;
     padding-bottom: 24px;
+}
+.py-48{
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 .py-100{
     padding-top: 100px;
@@ -344,6 +360,40 @@ body{
 }
 .portfolio-card:hover .portfolio-card-body{
     left: 0;
+}
+.line-x-y{
+    position: relative;
+}
+.line-x-y::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+.line-x-y::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+.social-links a{
+    margin-right: 24px;
+}
+.social-links a img{
+    transition: 0.4s ease;
+    transform: scale(1);
+}
+.social-links a:hover img{
+    transform: scale(1.1);
+}
+.social-links a:last-child{
+    margin-right: 0;
 }
 /* Common Classes Ends Here */
 
